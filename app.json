@@ -1,0 +1,28 @@
+{
+	"name": "Torrent-Api-py",
+  	"description": "An Unofficial API for 1337x, Piratebay, Nyaasi, Torlock, Torrent Galaxy, Zooqle, Kickass, Bitsearch, MagnetDL, Libgen, YTS, TorrentFunk, Glodls TorrentProject and YourBittorrent",
+  	"repository": "https://github.com/wrecker3000/Torrent-Api-py Bot",
+  	"keywords": ["api", "torrent", "python"],
+  	"env": {
+    "BOT_TOKEN": {
+    	"description": "optional"
+    	}
+  	},
+
+  	"buildpacks": [
+      {
+         "url": "heroku/python"
+      },
+
+
+      {
+      	"url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+      },
+
+      {
+        "url": "https://github.com/wrecker3000/heroku-buildpack-google-chrome"
+      }
+  ],
+
+  "stack": "heroku-18"
+}
