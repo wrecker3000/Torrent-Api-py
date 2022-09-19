@@ -6,7 +6,7 @@
   	"env": {
     "BOT_TOKEN": {
     	"description": "optional",
-            "required": true
+            "required": false
     	}
   	},
 
